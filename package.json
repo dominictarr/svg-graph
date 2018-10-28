@@ -1,0 +1,21 @@
+{
+  "name": "svg-graph",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/svg-graph",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/svg-graph.git"
+  },
+  "dependencies": {
+    "pull-csv": "^1.0.3",
+    "pull-split": "^0.2.0",
+    "stream-to-pull-stream": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}

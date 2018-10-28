@@ -1,0 +1,51 @@
+//hmm, is there a way to allow defining functions without enabling
+//recursion?
+
+//def (even, .width(..width.div(..children.length())))
+//def (rainbow, .colour(360.div(..children.indexOf(.))))
+
+box(
+  text(title),
+  box(
+    box().height(N),...
+  ).each(
+    block(
+      .width(..width.div(..children.length())),
+      .colour(360.div(..children.indexOf(.)))
+    )
+  ).height(.children.reduce(.max(..height))
+  .top(first(..).bottom)
+  .bottom(last(..).top),
+  box(
+    text('string').rotate(90)
+  ).each(.left(.prev().right))
+)
+
+(box
+  (text "title")
+  (each
+    (box
+      (height (box) N)
+    )
+    (block
+      (width (div (get (parent 2) "width") (length (get (parent 2) "children")))
+      (colour (div 360 (indexOf (get (parent 2) "children") (input))
+    )
+  )
+  (each
+    (box
+      (text "label") ...
+    )
+    (block
+      (left (div (index (parent 1) (input) (length (get (parent 1) "children"))
+    )
+  )
+)
+
+
+
+
+
+
+
+
