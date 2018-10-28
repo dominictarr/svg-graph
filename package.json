@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git://github.com/dominictarr/svg-graph.git"
   },
+  "bin": "./bin.js",
   "dependencies": {
     "pull-csv": "^1.0.3",
     "pull-split": "^0.2.0",

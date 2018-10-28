@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var toPull = require('stream-to-pull-stream')
 var pull = require('pull-stream')
 var CSV = require('pull-csv').parse
